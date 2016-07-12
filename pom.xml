@@ -74,10 +74,9 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3</version>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
       <plugin>
@@ -207,9 +206,14 @@
   </distributionManagement>
 
   <scm>
-    <connection>scm:git:git://github.com/nuxeo/daisydiff.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:nuxeo/daisydiff.git</developerConnection>
-    <url>https://github.com/nuxeo/daisydiff</url>
+    <connection>scm:git:git://github.com/iviews/daisydiff.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:iviews/daisydiff.git</developerConnection>
+    <url>https://github.com/iviews/daisydiff</url>
   </scm>
 
+  <parent>
+  	<version>2.0.10</version>
+  	<artifactId>base-pom</artifactId>
+  	<groupId>com.iviews.maven.pom</groupId>
+  </parent>
 </project>
