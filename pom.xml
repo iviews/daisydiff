@@ -5,13 +5,13 @@
 
   <groupId>org.outerj.daisy</groupId>
   <artifactId>daisydiff</artifactId>
-  <version>1.0.0</version>
+  <version>1.2-NX3-SNAPSHOT</version>
   <name>Daisydiff</name>
   <description>
-    A Java library to compare HTML files.    
-    Forked from https://github.com/nuxeo/daisydiff 1.2-NX3
+    A Java library to compare HTML files.
+    Nuxeo maintenance branch forked from tag v1.2.
    </description>
-   
+
   <url>http://daisydiff.googlecode.com</url>
   <licenses>
     <license>
