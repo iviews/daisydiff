@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.outerj.daisy</groupId>
   <artifactId>daisydiff</artifactId>
-  <version>1.2-NX3</version>
+  <version>1.2-NX3-SNAPSHOT</version>
   <name>Daisydiff</name>
   <description>
     A Java library to compare HTML files.
@@ -97,8 +98,8 @@
             <configuration>
               <!-- merge services files -->
               <transformers>
-                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
-                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer" />
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"></transformer>
+                <transformer implementation="org.apache.maven.plugins.shade.resource.ApacheLicenseResourceTransformer"></transformer>
                 <!-- <transformer -->
                 <!-- implementation="org.apache.maven.plugins.shade.resource.ApacheNoticeResourceTransformer"> -->
                 <!-- <addHeader>false</addHeader> -->
@@ -208,7 +209,6 @@
     <connection>scm:git:git://github.com/iviews/daisydiff.git</connection>
     <developerConnection>scm:git:ssh://git@github.com:iviews/daisydiff.git</developerConnection>
     <url>https://github.com/iviews/daisydiff</url>
-    <tag>daisydiff-1.2-NX3</tag>
   </scm>
 
   <parent>
