@@ -147,8 +147,8 @@
 		<connection>scm:git:git://github.com/iviews/daisydiff.git</connection>
 		<developerConnection>scm:git:git@github.com:iviews/daisydiff.git</developerConnection>
 		<url>https://github.com/iviews/daisydiff</url>
-	  <tag>HEAD</tag>
-  </scm>
+	    <tag>HEAD</tag>
+    </scm>
 
 	<parent>
 		<version>2.0.10</version>
