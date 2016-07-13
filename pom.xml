@@ -207,7 +207,7 @@
 
   <scm>
     <connection>scm:git:git://github.com/iviews/daisydiff.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:iviews/daisydiff.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:iviews/daisydiff.git</developerConnection>
     <url>https://github.com/iviews/daisydiff</url>
   </scm>
 
