@@ -143,61 +143,12 @@
 		</plugins>
 	</build>
 
-	<repositories>
-		<repository>
-			<id>public</id>
-			<url>http://maven.nuxeo.org/nexus/content/groups/public</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>public-snapshot</id>
-			<url>http://maven.nuxeo.org/nexus/content/groups/public-snapshot</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
-
-	<pluginRepositories>
-		<pluginRepository>
-			<id>public</id>
-			<url>http://maven.nuxeo.org/nexus/content/groups/public</url>
-			<name>Nuxeo virtual release repository</name>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-		<pluginRepository>
-			<id>public-snapshot</id>
-			<url>http://maven.nuxeo.org/nexus/content/groups/public-snapshot</url>
-			<name>Nuxeo virtual snapshot repository</name>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<updatePolicy>always</updatePolicy>
-				<enabled>true</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
-
 	<scm>
 		<connection>scm:git:git://github.com/iviews/daisydiff.git</connection>
 		<developerConnection>scm:git:git@github.com:iviews/daisydiff.git</developerConnection>
 		<url>https://github.com/iviews/daisydiff</url>
-	  <tag>HEAD</tag>
-  </scm>
+	    <tag>HEAD</tag>
+    </scm>
 
 	<parent>
 		<version>2.0.10</version>
