@@ -4,7 +4,7 @@
 
 	<groupId>org.outerj.daisy</groupId>
 	<artifactId>daisydiff</artifactId>
-	<version>1.2-NX5</version>
+	<version>1.2-NX6-SNAPSHOT</version>
 	<name>Daisydiff</name>
 	<description>
     A Java library to compare HTML files.
@@ -147,7 +147,7 @@
 		<connection>scm:git:git://github.com/iviews/daisydiff.git</connection>
 		<developerConnection>scm:git:git@github.com:iviews/daisydiff.git</developerConnection>
 		<url>https://github.com/iviews/daisydiff</url>
-	    <tag>daisydiff-1.2-NX5</tag>
+	    <tag>HEAD</tag>
     </scm>
 
 	<parent>
